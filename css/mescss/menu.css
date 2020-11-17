@@ -1,0 +1,96 @@
+.nav-toggle {
+    content: url("icones/menu-1.png");
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 4rem;
+    right: 3rem;
+    z-index: 2;
+}
+
+.menu-open .nav-toggle {
+    content: url("icones/croix.png");
+}
+
+/*menu*/
+
+.menu h1::before {
+    content: none;
+}
+
+.menu {
+    background-color: darkblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    transform: translateX(100vw);
+    transition: all .5s;
+    z-index: 1;
+}
+
+.menu-open .menu {
+    transform:translateX(0);
+}
+
+/* bug IOS --> overflow doit être appliqué sur l'élément
+ body et html pour faire disparaitre
+ le scroll sur safari*/
+.menu-open, .menu-open body {
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 17.5rem 0 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.menu li {
+    margin-bottom: 30px;
+    transform: translateX(30px);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu-open .menu li {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.menu-open .menu li:nth-child(n+1){transition-delay:.3s;}
+.menu-open .menu li:nth-child(n+2){transition-delay:.35s;}
+.menu-open .menu li:nth-child(n+3){transition-delay:.4s;}
+.menu-open .menu li:nth-child(n+4){transition-delay:.45s;}
+.menu-open .menu li:nth-child(n+5){transition-delay:.5s;}
+
+.menu {
+    background: linear-gradient(#080442, #393385) ;
+}
+
+.menu img {
+    position: absolute;
+    top: 9rem;
+}
+
+.menu h1 {
+    position: absolute;
+    top: 24rem;
+    margin-left: 0;
+    font-size: 4rem;
+}
+
+.menu>ul>li>a>img {
+    position: relative;
+}
