@@ -1,0 +1,77 @@
+header {
+    background-color: #080442;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 7rem;
+}
+
+header h1::before{
+    content: url("icones/logo-50px.png");
+    position: absolute;
+    left: 1.5rem;
+    top: 1rem;
+}
+
+body {
+    background: linear-gradient(#080442, #393385) ;
+    margin-left: 0;
+}
+
+header h1 {
+    width: 21.5rem;
+    margin: 1rem auto auto;
+}
+
+.nav-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+}
+
+main {
+    margin-top: 10rem;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    background-color: #625BC4;
+    left: 0;
+}
+
+footer p {
+    text-indent: 0;
+}
+
+.nom, .mentiond-légales, .contact {
+    display: table-cell;
+    padding-left: 1rem;
+}
+
+.mentiond-légales {
+    width: 23.5rem;
+}
+
+.nom {
+    width: 10rem;
+}
+
+.contact {
+    width: 22.5rem;
+    padding-right: 1rem;
+}
+
+.contact ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact>ul>li {
+    display: inline;
+}
+
+p {
+    text-indent: 2rem;
+}
