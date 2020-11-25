@@ -1,0 +1,48 @@
+.page-projet h1,h2,h3 {
+    text-align: center;
+}
+
+.présentation {
+    margin-left:1.5rem;
+    margin-right: 1.5rem;
+}
+
+.page-projet img {
+    display: block;
+    margin: auto;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.page-projet>.projet-articles>.Black-Mirror>a>img, .page-projet>.projet-articles>.pollution>a>img, .page-projet>.projet-articles>.solution>a>img {
+    display: block;
+    margin: auto;
+}
+
+.projet-articles {
+    margin-top: 5rem;
+    margin-left: -1.5rem;
+}
+
+.projet-articles p {
+    text-align: center;
+}
+
+.projet-articles p,h2,h3 {
+    margin-left:1.5rem;
+    margin-right: 1.5rem;
+}
+
+.page-projet .projet-articles {
+    background-color: #04003D;
+}
+
+.page-projet .projet-articles .pollution {
+    background-color: #4D0119;
+    border-top: #4D0119 solid;
+}
+
+.page-projet .projet-articles .solution {
+    background-color: #003F1B;
+    border-top: #003F1B solid ;
+}
