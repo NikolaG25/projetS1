@@ -154,3 +154,44 @@ video {
 .BM .zone-exergue{
     width: 160px;
 }
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel h2 {
+    margin: 0 20px;
+}
+
+.carousel {
+    background-color: #04003D;
+    color: white;
+    padding: 20px 0;
+}
+
+.carousel-items {
+    list-style: none;
+    padding: 20px 0;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 1 0 220px;
+    margin-right: 20px;
+    scroll-snap-align: center;
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #625BC4;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4D0119;
+}
