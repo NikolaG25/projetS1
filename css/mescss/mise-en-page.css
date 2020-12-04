@@ -11,8 +11,8 @@ header {
 header h1::before{
     content: url("icones/logo-50px.png");
     position: absolute;
-    left: 1.5rem;
-    top: 1rem;
+    left: 15px;
+    top: 10px;
 }
 
 body {
@@ -22,18 +22,18 @@ body {
 }
 
 header h1 {
-    width: 21.5rem;
-    margin: 1rem auto auto;
+    width: 215px;
+    margin: 10px auto auto;
 }
 
 .nav-toggle {
     position: absolute;
-    top: 1rem;
-    right: 1.5rem;
+    top: 10px;
+    right: 15px;
 }
 
 main {
-    margin-top: 10rem;
+    margin-top: 100px;
 }
 
 footer {
@@ -41,7 +41,7 @@ footer {
     width: 100%;
     background-color: #625BC4;
     left: 0;
-    margin-top: 5rem;
+    margin-top: 50px;
 }
 
 footer p {
@@ -50,20 +50,20 @@ footer p {
 
 .nom, .mentiond-légales, .contact {
     display: table-cell;
-    padding-left: 1rem;
+    padding-left: 10px;
 }
 
 .mentiond-légales {
-    width: 23.5rem;
+    width: 235px;
 }
 
 .nom {
-    width: 10rem;
+    width: 100px;
 }
 
 .contact {
-    width: 22.5rem;
-    padding-right: 1rem;
+    width: 225px;
+    padding-right: 10px;
 }
 
 .contact ul {
@@ -90,17 +90,17 @@ h2, q {
     text-align: center;
 }
 
-/*.page-pollution img:nth-child(2n+1) {
-    margin-left: -15px;
-}*/
-
 .page-pollution img:nth-child(0n+4) {
     margin-left: 8px;
 }
 
-.page-pollution>a>img {
+.page-pollution>a>img, .BM>a>img, .page-solution>a>img {
     display: block;
     margin: auto;
+}
+
+.BM>a>img, .page-solution>a>img, .page-pollution>a>img {
+    margin-top: 50px;
 }
 
 .background-vert {
@@ -125,7 +125,7 @@ h2, q {
 
 .exergue {
     position: absolute;
-    width: 16.5rem;
+    width: 165px;
     padding: 10px;
     right: 0;
     background-color: #800129;
@@ -134,7 +134,7 @@ h2, q {
 }
 
 .zone-exergue {
-    width: 18rem;
+    width: 180px;
     margin-bottom: 0;
     z-index: 0;
 }
@@ -194,4 +194,122 @@ video {
 
 ::-webkit-scrollbar-thumb {
     background-color: #4D0119;
+}
+
+.page-solution>.texte>.zone-exergue {
+    width: 165px;
+}
+
+.propos {
+    position: absolute;
+    bottom: 0;
+}
+
+.carousel h3 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tweet {
+    text-align: center;
+}
+
+.page-a-propos li {
+    /*margin-bottom: 50px;*/
+    margin-top: 100px;
+    margin-left: -10px;
+    width: 200px;
+}
+
+.page-a-propos li:nth-child(0n+1)::after {
+    content: url("img/autres-projets/hiden.png");
+    position: absolute;
+    right: 20px;
+    top: 640px;
+}
+
+.page-a-propos li:nth-child(0n+2)::after{
+    content: url("img/autres-projets/terminateur.png");
+    position: absolute;
+    right: 20px;
+    top: 760px;
+}
+
+.page-a-propos li:nth-child(0n+3)::after {
+    content: url("img/autres-projets/menace.png");
+    position: absolute;
+    right: 20px;
+    top: 920px;
+}
+
+.page-a-propos li:nth-child(0n+4)::after {
+    content: url("img/autres-projets/numerisk.png");
+    position: absolute;
+    right: 20px;
+    top: 1050px;
+}
+
+.page-a-propos li:nth-child(0n+5)::after {
+    content: url("img/autres-projets/pp.png");
+    position: absolute;
+    right: 20px;
+    top: 1200px;
+}
+
+.page-a-propos li:nth-child(0n+6)::after {
+    content: url("img/autres-projets/rpo.png");
+    position: absolute;
+    right: 20px;
+    top: 1350px;
+}
+
+/*formulaire de contact*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+
+input[type=submit] {
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.container>form>input, .container>form>textarea {
+    background-color: #04003D;
+    border: none;
+    color: white;
+}
+
+.formulaire .container form input {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.formulaire {
+    margin-top: 50px;
+}
+
+.formulaire h3 {
+    text-align: center;
 }
