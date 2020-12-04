@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="css/lib/normalize.css">
+    <link rel="stylesheet" href="css/mescss/typography.css">
+    <link rel="stylesheet" href="css/mescss/menu.css">
+    <link rel="stylesheet" href="css/mescss/mise-en-page.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A propos</title>
+</head>
+<body>
+    <header>
+    <h1><a href="index.html">Black World</a></h1>
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')"></div>
+    <nav class="menu">
+        <img src="css/mescss/icones/logo-154px.png" alt="Logo du site (planète Terre brisée)">
+        <h1>Black World</h1>
+        <ul>
+            <li><a href="index.html"><img src="css/mescss/icones/boutons/menu/bouton-projet.png" alt="Le projet"></a></li>
+            <li><a href="black-mirror.html"><img src="css/mescss/icones/boutons/menu/bouton-black-mirror.png" alt="Black Mirror, un reflet de notre monde"></a></li>
+            <li><a href="pollution.html"><img src="css/mescss/icones/boutons/menu/bouton-pollution.png" alt="La pollution du numérique : un côté obscur"></a></li>
+            <li><a href="solutions.html"><img src="css/mescss/icones/boutons/menu/bouton-solutions.png" alt="Des solutions pour revenir du côté lumineux"></a></li>
+            <li><a><img src="css/mescss/icones/boutons/menu/bouton-a-propos.png" alt="A propos"></a></li>
+        </ul>
+    </nav>
+</header>
+    <main class="page-a-propos">
+        <div class="texte">
+        <h2>A propos</h2>
+        <p>Ce site a été conçu dans le cadre d’un projet pédagogique du DUT Métiers du Multimédia et de l’Internet de Montbéliard. Ce projet a été réalisé par Gelin Nicolas durant le premier semestre de première année de DUT entre septembre 2020 et décembre 2020.</p>
+        <p>Le but principal de ce projet était de nous former aux métiers du multimédia et de l’internet tout en nous faisant prendre conscience des enjeux climatiques parfois méconnus de l’utilisation du web. Ceci en liant nos recherches à une série, un livre ou un film qui ont des éléments en communs.</p>
+        <p>Je vous invite désormais à aller visiter les projets de mes camarades :</p>
+        <ul>
+            <li>HiDen de Thomas Jeu</li>
+            <li>Terminateur Web de Julien Ferré</li>
+            <li>La Menace Fantôme de Maxence Guichard</li>
+            <li>Numérisk de Martin Ligier</li>
+            <li>The Dark Side Of Pied Piper de Maxime Malatier</li>
+            <li>VR : une réalité pas si virtuelle de Raphael Lemoine</li>
+        </ul>
+        </div>
+        <div class="formulaire">
+            <h3>Formulaire de contact</h3>
+
+
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname">Prénom</label>
+                    <input type="text" id="fname" name="prénom" placeholder="Votre prénom..">
+
+                    <label for="lname">Nom</label>
+                    <input type="text" id="lname" name="nom" placeholder="Votre nom..">
+
+                    <label for="email">Votre email</label>
+                    <input type="text" id="email" name="email" placeholder="Votre email..">
+
+
+                    <label for="subject">Commentaire</label>
+                    <textarea id="subject" name="commentaire" placeholder="Votre commentaire.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="nom">
+            <p>Nicolas GELIN</p>
+            <p>Groupe B1</p>
+        </div>
+        <div class="mentiond-légales">
+            <p>Ce projet a été réalisé dans le cadre d'un projet pédagogique du DUT MMI de Montbéliard.</p>
+        </div>
+        <div class="contact">
+            <p>Me contacter :</p>
+            <ul>
+                <li><a href="https://twitter.com/NikolaG25" target="_blank"><img src="css/mescss/icones/reseaux/twitter-blanc.png" alt="Twitter"></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100008531654220" target="_blank"><img src="css/mescss/icones/reseaux/facebook-blanc.png" alt="Facebook"></a></li>
+                <li><a href="https://www.instagram.com/nikolag25/?hl=fr" target="_blank"><img src="css/mescss/icones/reseaux/insta@2x.png" alt="Instagram"></a></li>
+                <li><a href="mailto:ngelin02@gmail.com" target="_blank"><img src="css/mescss/icones/reseaux/mail.png" alt="Mail"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
