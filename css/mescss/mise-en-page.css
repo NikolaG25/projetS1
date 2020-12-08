@@ -34,6 +34,7 @@ header h1 {
 
 main {
     margin-top: 100px;
+    /*margin-left: 15px;*/
 }
 
 footer {
@@ -41,7 +42,7 @@ footer {
     width: 100%;
     background-color: #625BC4;
     left: 0;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 footer p {
@@ -82,25 +83,12 @@ p {
 /*css page pollution*/
 
 .texte {
-    margin-left: 15px;
     margin-right: 15px;
+    margin-left: 15px;
 }
 
 h2, q {
     text-align: center;
-}
-
-.page-pollution img:nth-child(0n+4) {
-    margin-left: 8px;
-}
-
-.page-pollution>a>img, .BM>a>img, .page-solution>a>img {
-    display: block;
-    margin: auto;
-}
-
-.BM>a>img, .page-solution>a>img, .page-pollution>a>img {
-    margin-top: 50px;
 }
 
 .background-vert {
@@ -216,55 +204,48 @@ video {
 }
 
 .page-a-propos li {
-    /*margin-bottom: 50px;*/
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: -10px;
     width: 200px;
 }
 
 .page-a-propos li:nth-child(0n+1)::after {
     content: url("img/autres-projets/hiden.png");
-    position: absolute;
-    right: 20px;
-    top: 640px;
 }
 
 .page-a-propos li:nth-child(0n+2)::after{
     content: url("img/autres-projets/terminateur.png");
-    position: absolute;
-    right: 20px;
-    top: 760px;
 }
 
 .page-a-propos li:nth-child(0n+3)::after {
     content: url("img/autres-projets/menace.png");
-    position: absolute;
-    right: 20px;
-    top: 920px;
 }
 
 .page-a-propos li:nth-child(0n+4)::after {
     content: url("img/autres-projets/numerisk.png");
-    position: absolute;
-    right: 20px;
-    top: 1050px;
 }
 
 .page-a-propos li:nth-child(0n+5)::after {
     content: url("img/autres-projets/pp.png");
-    position: absolute;
-    right: 20px;
-    top: 1200px;
 }
 
 .page-a-propos li:nth-child(0n+6)::after {
     content: url("img/autres-projets/rpo.png");
-    position: absolute;
-    right: 20px;
-    top: 1350px;
 }
 
-/*formulaire de contact*/
+.page-a-propos li::after {
+    padding-left: 225px;
+}
+
+.page-a-propos>.texte>ul>li text, .page-a-propos>.texte>ul>li::after {
+    display: inline-block;
+    margin-top: -60px;
+}
+
+.page-a-propos>.texte>ul>li.vr::after {
+    margin-top: -90px;
+}
+    /*formulaire de contact*/
 
 input[type=text], select, textarea {
     width: 100%;
@@ -312,4 +293,57 @@ input[type=submit]:hover {
 
 .formulaire h3 {
     text-align: center;
+}
+
+.bouton{
+    border: 0;
+    line-height: 3;
+    padding: 0 20px;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #04003D;
+    margin-bottom: 30px;
+}
+
+.bouton:hover {
+    background-color: #231E6D;
+}
+
+.bouton:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.bouton-projet{
+    border: 0;
+    line-height: 3;
+    padding: 0 20px;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #6A66A3;
+    margin-bottom: 30px;
+}
+
+.bouton-projet:hover {
+    background-color: #231E6D;
+}
+
+.bouton-projet:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.page-pollution>a>button, .page-solution>a>button, .BM>a>button {
+    display: block;
+    margin: 20px auto auto;
+}
+
+main>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
