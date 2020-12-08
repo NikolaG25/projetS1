@@ -10,28 +10,32 @@
 .page-projet img {
     display: block;
     margin: auto;
-    padding-left: 15px;
     padding-bottom: 15px;
 }
 
-.page-projet>.projet-articles>.Black-Mirror>a>img, .page-projet>.projet-articles>.pollution>a>img, .page-projet>.projet-articles>.solution>a>img {
+.bouton-projet  {
     display: block;
     margin: auto;
 }
 
 .projet-articles {
     margin-top: 50px;
-    margin-left: -15px;
+    margin-left: 0;
+}
+
+article {
+    padding-bottom: 20px;
 }
 
 .projet-articles p {
     text-align: center;
+    width: auto;
 }
 
-.projet-articles p,h2,h3 {
+/*.projet-articles p,h2,h3 {
     margin-left:15px;
     margin-right: 15px;
-}
+}*/
 
 .page-projet .projet-articles {
     background-color: #04003D;
