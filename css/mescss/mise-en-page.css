@@ -22,7 +22,7 @@ body {
 }
 
 header h1 {
-    width: 215px;
+    width: 173px;
     margin: 10px auto auto;
 }
 
@@ -209,42 +209,6 @@ video {
     width: 200px;
 }
 
-.page-a-propos li:nth-child(0n+1)::after {
-    content: url("img/autres-projets/hiden.png");
-}
-
-.page-a-propos li:nth-child(0n+2)::after{
-    content: url("img/autres-projets/terminateur.png");
-}
-
-.page-a-propos li:nth-child(0n+3)::after {
-    content: url("img/autres-projets/menace.png");
-}
-
-.page-a-propos li:nth-child(0n+4)::after {
-    content: url("img/autres-projets/numerisk.png");
-}
-
-.page-a-propos li:nth-child(0n+5)::after {
-    content: url("img/autres-projets/pp.png");
-}
-
-.page-a-propos li:nth-child(0n+6)::after {
-    content: url("img/autres-projets/rpo.png");
-}
-
-.page-a-propos li::after {
-    padding-left: 225px;
-}
-
-.page-a-propos>.texte>ul>li text, .page-a-propos>.texte>ul>li::after {
-    display: inline-block;
-    margin-top: -60px;
-}
-
-.page-a-propos>.texte>ul>li.vr::after {
-    margin-top: -90px;
-}
     /*formulaire de contact*/
 
 input[type=text], select, textarea {
@@ -337,7 +301,7 @@ input[type=submit]:hover {
     inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
-.page-pollution>a>button, .page-solution>a>button, .BM>a>button {
+.page-pollution>button, .page-solution>button, .BM>button {
     display: block;
     margin: 20px auto auto;
 }
@@ -346,4 +310,39 @@ main>img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.lien {
+    text-decoration: underline white;
+    font-weight: bold;
+}
+
+.logo {
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+.Terminateur .logo {
+    margin-top: -75px;
+}
+
+.Menace .logo {
+    margin-top: -75px;
+}
+
+.Numérisk .logo {
+    margin-top: -60px;
+}
+
+.Dark .logo {
+    margin-top: -60px;
+}
+
+.VR .logo {
+    margin-top: -100px;
+}
+
+.E\.llusion .logo {
+    margin-bottom: 100px;
+    margin-top: -40px;
 }
