@@ -1,4 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+
+
+@font-face {
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+    src: url("../../typo/orbitron/static/Orbitron-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../../typo/raleway/static/Raleway-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-style: italic;
+    font-weight: normal;
+    src: url("../../typo/raleway/static/Raleway-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../../typo/raleway/static/Raleway-Bold.ttf") format("truetype");
+}
 
 html {
     font-size: 62.5%;
@@ -18,7 +47,7 @@ a {
 }
 
 h1,h2,h3,h4 {
-    font-family: "Orbitron Black", sans-serif;
+    font-family: "Orbitron ExtraBold", sans-serif;
 }
 
 footer {
