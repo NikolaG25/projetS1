@@ -15,18 +15,18 @@
 </head>
 <body>
     <header>
-        <h1><a href="">Black World</a></h1>
+        <h1>Black World</h1>
         <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')"></div>
         <nav class="menu">
         <img src="css/mescss/icones/logo-154px.png" alt="Logo du site (planète Terre brisée)">
         <h1>Black World</h1>
-        <ul>
-            <a href="index.html"><button class="bouton" type="button">Le projet</button></a>
-            <a href="black-mirror.html"><button class="bouton" type="button">Black Mirror, un reflet de notre monde</button></a>
-            <a><button class="bouton" type="button">La pollution du numérique : un côté obscur</button></a>
-            <a href="solutions.html"><button class="bouton" type="button">Des solutions pour revenir du côté lumineux</button></a>
-            <a href="a-propos.html"><button class="bouton" type="button">A propos</button></a>
-        </ul>
+            <div class="bouton-menu">
+                <button class="bouton" type="button" onclick="window.location.href = 'index.html'">Le projet</button>
+                <button class="bouton" type="button" onclick="window.location.href = 'black-mirror.html'">Black Mirror, un reflet de notre monde</button>
+                <button class="bouton" type="button">La pollution du numérique : un côté obscur</button>
+                <button class="bouton" type="button" onclick="window.location.href = 'solutions.html'">Des solutions pour revenir du côté lumineux</button>
+                <button class="bouton" type="button" onclick="window.location.href = 'a-propos.html'">A propos</button>
+            </div>
     </nav>
     </header>
     <main class="page-pollution">
@@ -34,11 +34,11 @@
         <h2>La pollution numérique : un côté obscur</h2>
             <article class="tweet"><q>Vous sous-estimez la puissance du côté obscur (du web) !</q></article>
             <p>Estimons ensemble la puissance du côté obscur du Web.</p>
-            <p>Pour commencer, la consommation en électricité des 182 datacenters en France à une part de <strong>8% dans la consommation d’électricité du pays.</strong></p>
+            <p>Pour commencer, la consommation en électricité des 182 datacenters en France à une part de <a href="https://www.fournisseur-energie.com/internet-plus-gros-pollueur-de-planete/" target="_blank" class="lien">8% dans la consommation d’électricité du pays.</a></p>
             <p>L’année 2020 est la première année où la pollution numérique est plus importante que la pollution causée par l’aviation civile du monde entier. Ce record a pu être atteint plus rapidement cette année à cause de la pandémie du COVID-19 qui a fait augmenter l’utilisation d’internet et à contrario fait baisser le flux aérien du monde entier.</p>
         <h3>I/ Le numérique, un grand pollueur</h3>
             <p>4%, c’est la part des émissions de CO2 mondiales dues au numérique en 2019. C’est plus que la pollution produite par le Japon et si le numérique serait un pays il serait le 5ème plus gros pollueur de la planète derrière la Chine, les Etats-Unis, l’Inde et la Russie.</p>
-            <p>Le numérique pollue 4 fois plus que la France et il risque de polluer encore plus dans les prochaines années. En effet, les spécialistes prévoient que l’empreinte carbone du numérique pourrait doubler d’ici 2025.</p>
+            <p><a href="https://fr.statista.com/infographie/19739/empreinte-carbone-internet-et-univers-numerique-mondial-emission-de-co2/#:~:text=Le%20num%C3%A9rique%20mondial%20%C3%A9met%204%20fois%20plus%20de%20CO2%20que%20la%20France,-de%20Tristan%20Gaudiaut&text=Comme%20le%20montre%20notre%20infographie,estim%C3%A9es%20%C3%A0%203%2C8%20%25" target="_blank" class="lien">Le numérique pollue 4 fois plus que la France</a> et il risque de polluer encore plus dans les prochaines années. En effet, les spécialistes prévoient que l’empreinte carbone du numérique pourrait doubler d’ici 2025.</p>
             <article class="tweet"><em>Graphique représentant la pollution du numérique en comparaison avec la pollution de pays</em></article>
         </div>
             <img src="img/page-pollution/graphique-pollution.png" alt="Graphique sur la pollution du numérique comparé avec des pays.">
@@ -48,14 +48,15 @@
         <h4>1) Les équipements</h4>
             <p>Tout d’abord, comme vous pouvez le voir sur le graphique ci-dessus, les équipements numériques produisent 63% du CO2 causé par le numérique. Mais ce n’est pas le sujet qui nous intéresse. Nous allons nous focaliser sur les centres de données et le réseau informatique.</p>
         <h4>2) Les recherches</h4>
-            <p>Ensuite, une recherche sur google produit 7g de CO2. Il y a une moyenne de 80 000 requêtes par seconde, ce qui équivaut à 6,9 milliards par jour. Cela fait 48 300 000g soit 48,3 tonnes de CO2 rejetées par jour et 17 629,5 tonnes rejetées par an. Soit l’équivalent de 17 629 voyages aller-retour Paris-New York. </p>
+            <p>Ensuite, une recherche sur google produit 7g de CO2. Il y a une moyenne de <a href="https://www.blogdumoderateur.com/chiffres-google/#:~:text=130%20000%20milliards%20de%20pages,(500%20millions%20par%20jour)%20" target="_blank" class="lien">80 000 requêtes par seconde</a>, ce qui équivaut à 6,9 milliards par jour. Cela fait 48 300 000g soit 48,3 tonnes de CO2 rejetées par jour et 17 629,5 tonnes rejetées par an. Soit l’équivalent de 17 629 voyages aller-retour Paris-New York. </p>
         <h4>3) Les mails</h4>
             <p>Penchons-nous désormais sur l’impact écologique des mails.</p>
             <p>Pour commencer, même s’il est préférable de supprimer ses mails inutiles car ils polluent, même quand vous les supprimez-vous polluez, mais c’est tout de même moins polluant que de les garder.</p>
             <q class="exergue"><strong>30 mails supprimés équivalent à la consommation d’une ampoule allumée pendant 24 heures.</strong></q>
             <p class="zone-exergue">Si l’on prend une ampoule de 60 watts, elle consomme 1,44 kWh en 24 heures soit 0,648 kg équivalent CO2 donc 236,52 kg équivalent CO2 en un</p>
             <p class="sous-exergue"> an si l’on supprime 30 mails par jours. Maintenant voyions les problèmes des mails non supprimer.</p>
-            <p>Un mail avec une pièce jointe peut émettre 19g de CO2. Et le stockage d’un mail dans les data centers durant un 1 an émet 10 grammes de CO2. Donc un mail produit 30 grammes de CO2. </p>
+            <p>Un mail avec une pièce jointe peut émettre 19g de CO2. Et le stockage d’un mail dans les data centers durant un 1 an émet 10 grammes de CO2. Donc un mail produit
+                <a href="https://leshorizons.net/comment-reduire-pollution-email/" target="_blank" class="lien">30 grammes de CO2.</a> </p>
             <article class="tweet"><em>Petit résumé de l’empreinte carbone des mails :</em></article>
         </div>
             <img src="img/page-pollution/mail.png" alt="résumé de l'empreinte carbone d'un email.">
@@ -134,7 +135,7 @@
                 <p>Donc en conclusion le production d'énergie en France pollue peu car la majorité de la production est réalisée dans les centrales nucléaires qui à part à cause de leurs déchets, ne polluent pas. Dans certains pays, cette production est majoritairement réalisée grâce à des centrales à charbon ce qui pollue beaucoup plus comme en Allemagne par exemple.</p>
                 <p>On a donc vu que le côté obscur du web est puissant mais nous allons désormais voir qu’il n’est pas invincible si nous y mettons tous un peu du notre.</p>
         </div>
-        <a href="solutions.html"><button class="bouton">Article suivant</button></a>
+        <button class="bouton" onclick="window.location.href = 'solutions.html'">Article suivant</button>
     </main>
     <footer>
         <div class="nom">
