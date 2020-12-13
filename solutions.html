@@ -15,18 +15,18 @@
 </head>
 <body>
     <header>
-    <h1><a href="">Black World</a></h1>
+    <h1>Black World</h1>
     <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')"></div>
     <nav class="menu">
         <img src="css/mescss/icones/logo-154px.png" alt="Logo du site (planète Terre brisée)">
         <h1>Black World</h1>
-        <ul>
-            <a href="index.html"><button class="bouton" type="button">Le projet</button></a>
-            <a href="black-mirror.html"><button class="bouton" type="button">Black Mirror, un reflet de notre monde</button></a>
-            <a href="pollution.html"><button class="bouton" type="button">La pollution du numérique : un côté obscur</button></a>
-            <a><button class="bouton" type="button">Des solutions pour revenir du côté lumineux</button></a>
-            <a href="a-propos.html"><button class="bouton" type="button">A propos</button></a>
-        </ul>
+        <div class="bouton-menu">
+            <button class="bouton" type="button" onclick="window.location.href = 'index.html'">Le projet</button>
+            <button class="bouton" type="button" onclick="window.location.href = 'black-mirror.html'">Black Mirror, un reflet de notre monde</button>
+            <button class="bouton" type="button" onclick="window.location.href = 'pollution.html'">La pollution du numérique : un côté obscur</button>
+            <button class="bouton" type="button">Des solutions pour revenir du côté lumineux</button>
+            <button class="bouton" type="button" onclick="window.location.href = 'a-propos.html'">A propos</button>
+        </div>
     </nav>
 </header>
     <main class="page-solution">
@@ -38,11 +38,12 @@
             <p>En effet, pour commencer à réduire notre pollution numérique, il faut faire attention à ce qu’on achète comme matériel et ne pas en prendre plus que nécessaire et garder nos équipements un maximum de temps pour ne pas en racheter trop souvent et pour finir, penser au matériel reconditionné qui permet de ne pas jeter tous les composants d’un élément dysfonctionnant.</p>
         </div>
         <article class="tweet"><em>Schéma représentant le cycle du reconditionnement</em></article>
-            <img src="img/page-solution/scheme-reconditionne.png" alt="image en rapport avec le reconditionnement">
+            <img src="img/page-solution/scheme-reconditionne-375.png" alt="image en rapport avec le reconditionnement">
         <div class="texte">
             <p>Comme nous l’avons vu dans la partie précédente, supprimer nos mails inutiles qui sont beaucoup trop nombreux et qui polluent énormément. De plus, la plupart du temps, un appel ou un sms peut réaliser le même rôle qu’un mail est cela pollue beaucoup moins.</p>
             <p>Donc supprimez vos mails pour la planète.</p>
-            <p class="background-vert">De plus, nous ne sommes pas obligées de réaliser nos recherches sur des navigateurs classiques tels que google car il existe certains moteurs de recherches plus écologiques comme par exemple Ecosia, Lilo ou encore Ecogine qui permettent de faire des recherches en ayant une empreinte carbone plus basse que sur d’autres moteurs de recherches. Source</p>
+            <p class="background-vert">De plus, nous ne sommes pas obligées de réaliser nos recherches sur des navigateurs classiques tels que google car il existe certains moteurs de recherches plus écologiques comme par exemple Ecosia, Lilo ou encore Ecogine qui permettent de faire des recherches en ayant une empreinte carbone plus basse que sur d’autres moteurs de recherches.
+                <a href="https://www.lateamweb.com/reduire-pollution-numerique-au-travail-6-conseils/#:~:text=Passez%20aux%20%C3%A9nergie%20renouvelables%20!,entreprise%20dans%20une%20strat%C3%A9gie%20RSE%E2%80%A6" target="_blank" class="lien">Source</a></p>
             <p>Un des problèmes des data centers est que ceux-ci ont besoin d’un système de refroidissement et que celui-ci consomme énormément d’énergie.</p>
             <p>Pour réduire ce cout d’énergie une des solutions est de placer les data centers dans des régions froides ce qui réduirais la chaleur de ceux-ci pour que le système de refroidissement consomme moins.</p>
             <q class="exergue"> <strong>Cela à cause de la chaleur dégagée par les data centers ce qui peut entrainer la fonte des glaces et des neiges de ces régions et donc dérégler le climat de celles-ci.</strong></q>
@@ -50,12 +51,12 @@
             <p class="zone-exergue">Pour réduire notre pollution, nous pouvons juste passe moins de temps sur </p>
             <p class="sous-exergue">internet et faire des activités ne nécessitant pas l’utilisation de numérique comme par exemple faire du sport, jouer à des jeux de sociétés, faire des travaux, bref beaucoup d’activités ne nécessite pas l’utilisation de numérique mais malheureusement, de moins en moins de personnes en ont conscience.</p>
             <p>Si vous n’arrivez pas à vous défaire de YouTube ou de Netflix voici quelques conseils pour continuer à regarder vos vidéos en polluant le moins possible :</p>
-            <p>Tout d’abord, éviter de regarder des vidéos en utilisant votre 4G car cela consomme 23 fois plus d’énergie que du wifi. Donc éviter de regarder des vidéos quand vous n’avez pas de source de wifi soit en dehors de chez vous et même chez vous. </p>
+            <p>Tout d’abord, éviter de regarder des vidéos en utilisant votre 4G car cela <a href="https://www.greenpeace.fr/la-pollution-numerique/?utm_source=google&utm_medium=cpc" target="_blank" class="lien">consomme 23 fois plus d’énergie que du wifi</a>. Donc éviter de regarder des vidéos quand vous n’avez pas de source de wifi soit en dehors de chez vous et même chez vous. </p>
             <p>Vous pouvez aussi réduire la qualité de vos films, séries et vidéo pour baisser votre empreinte carbone. En effet, plus vous regardé une série en haute définition plus vous polluez, donc pensez à réduire la définition quand la qualité de l’image n’est pas nécessaire pour comprendre ce qu’il se passe.</p>
             <strong>Appliquez tous ces conseils et la planète vous remerciera.</strong>
             <p>Donc en conclusion, pour vaincre le côté obscur du web et réduire la pollution numérique, c’est principalement à nous de bien gérer notre utilisation du numérique car c’est en l’utilisant que nous polluons le plus.</p>
         </div>
-        <a href="a-propos.html"><button class="bouton">A propos</button></a>
+        <button class="bouton" onclick="window.location.href = 'a-propos.html'">A propos</button>
     </main>
     <footer>
         <div class="nom">
