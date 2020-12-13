@@ -14,18 +14,18 @@
 </head>
 <body>
     <header>
-    <h1><a href="index.html">Black World</a></h1>
+    <h1>Black World</h1>
     <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')"></div>
     <nav class="menu">
         <img src="css/mescss/icones/logo-154px.png" alt="Logo du site (planète Terre brisée)">
         <h1>Black World</h1>
-        <ul>
-            <a href="index.html"><button class="bouton" type="button">Le projet</button></a>
-            <a href="black-mirror.html"><button class="bouton" type="button">Black Mirror, un reflet de notre monde</button></a>
-            <a href="pollution.html"><button class="bouton" type="button">La pollution du numérique : un côté obscur</button></a>
-            <a href="solutions.html"><button class="bouton" type="button">Des solutions pour revenir du côté lumineux</button></a>
-            <a><button class="bouton" type="button">A propos</button></a>
-        </ul>
+        <div class="bouton-menu">
+            <button class="bouton" type="button" onclick="window.location.href = 'index.html'">Le projet</button>
+            <button class="bouton" type="button" onclick="window.location.href = 'black-mirror.html'">Black Mirror, un reflet de notre monde</button>
+            <button class="bouton" type="button" onclick="window.location.href = 'pollution.html'">La pollution du numérique : un côté obscur</button>
+            <button class="bouton" type="button" onclick="window.location.href = 'solutions.html'">Des solutions pour revenir du côté lumineux</button>
+            <button class="bouton" type="button">A propos</button>
+        </div>
     </nav>
 </header>
     <main class="page-a-propos">
@@ -35,12 +35,42 @@
         <p>Le but principal de ce projet était de nous former aux métiers du multimédia et de l’internet tout en nous faisant prendre conscience des enjeux climatiques parfois méconnus de l’utilisation du web. Ceci en liant nos recherches à une série, un livre ou un film qui ont des éléments en communs.</p>
         <p>Je vous invite désormais à aller visiter les projets de mes camarades :</p>
         <ul>
-            <li class="hiden">HiDen de Thomas Jeu</li>
-            <li class="terminateur">Terminateur Web de Julien Ferré</li>
-            <li class="menace">La Menace Fantôme de Maxence Guichard</li>
-            <li class="numérisk">Numérisk de Martin Ligier</li>
-            <li class="dark side">The Dark Side Of Pied Piper de Maxime Malatier</li>
-            <li class="vr">VR : une réalité pas si virtuelle de Raphael Lemoine</li>
+            <div class="Hiden">
+            <li><a href="https://projets1.thomasjeu.fr/" target="_blank" class="lien">HiDen</a> de Thomas Jeu</li>
+            <img  class="logo" src="css/mescss/img/autres-projets/hiden.png" alt="logo du site">
+            </div>
+            <div class="Terminateur">
+            <li><a href="http://projets1.julienferre.fr/" target="_blank" class="lien">Terminateur Web</a> de Julien Ferré</li>
+            <img  class="logo" src="css/mescss/img/autres-projets/terminateur.png" alt="logo du site">
+            </div>
+            <div class="Menace fantôme">
+            <li><a href="http://projets1.maxenceguichard.fr/" target="_blank" class="lien">La Menace Fantôme</a> de Maxence Guichard</li>
+            <img  class="logo" src="css/mescss/img/autres-projets/menace.png" alt="logo du site">
+            </div>
+            <div class="Numérisk">
+            <li><a href="https://projets1.mart1liger.fr/" target="_blank" class="lien">Numérisk</a> de Martin Ligier</li>
+            <img  class="logo" src="css/mescss/img/autres-projets/numerisk.png" alt="logo du site">
+            </div>
+            <div class="Dark Side">
+            <li><a href="http://projets1.maximemalatier.fr/" target="_blank" class="lien">The Dark Side Of Pied Piper</a> de Maxime Malatier</li>
+            <img  class="logo" src="css/mescss/img/autres-projets/pp.png" alt="logo du site">
+            </div>
+            <div class="VR">
+            <li><a href="http://projets1.raph-lem.com/" target="_blank" class="lien">VR : une réalité pas si virtuelle</a> de Raphael Lemoine</li>
+            <img class="logo" src="css/mescss/img/autres-projets/rpo.png" alt="logo du site">
+            </div>
+            <div class="Nuclear">
+            <li><a href="http://projets1.teogheno.fr/" target="_blank" class="lien">Nuclear web</a> de Téo Gheno</li>
+            <img  class="logo" src="css/mescss/img/autres-projets/nuclear-100.png" alt="logo du site">
+            </div>
+            <div class="Techno">
+                <li><a href="https://projets1.hsolenne.fr/" target="_blank" class="lien">TechnoGreen</a> de Solenne Heitz</li>
+                <img  class="logo" src="css/mescss/img/autres-projets/techno-100.png" alt="logo du site">
+            </div>
+            <div class="E.llusion">
+                <li><a href="https://projets1.lambolezth.fr/" target="_blank" class="lien">E.llusion</a> de Thomas Lambolez</li>
+                <img  class="logo" src="css/mescss/img/autres-projets/ellusion-100.png" alt="logo du site">
+            </div>
         </ul>
         </div>
         <div class="formulaire">
