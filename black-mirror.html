@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="css/mescss/typography.css">
     <link rel="stylesheet" href="css/mescss/menu.css">
     <link rel="stylesheet" href="css/mescss/mise-en-page.css">
-    <script src="js/carousel.js" async></script>
 
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -16,20 +15,20 @@
 </head>
 <body>
     <header>
-    <h1><a href="">Black World</a></h1>
+    <h1>Black World</h1>
     <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
         <div class="nav-toggle-bar"></div>
     </div>
     <nav class="menu">
         <img src="css/mescss/icones/logo-154px.png" alt="Logo du site (planète Terre brisée)">
         <h1>Black World</h1>
-        <ul>
-            <a href="index.html"><button class="bouton" type="button">Le projet</button></a>
-            <a><button class="bouton" type="button">Black Mirror, un reflet de notre monde</button></a>
-            <a href="pollution.html"><button class="bouton" type="button">La pollution du numérique : un côté obscur</button></a>
-            <a href="solutions.html"><button class="bouton" type="button">Des solutions pour revenir du côté lumineux</button></a>
-            <a href="a-propos.html"><button class="bouton" type="button">A propos</button></a>
-        </ul>
+        <div class="bouton-menu">
+            <button class="bouton" type="button" onclick="window.location.href = 'index.html'">Le projet</button>
+            <button class="bouton" type="button">Black Mirror, un reflet de notre monde</button>
+            <button class="bouton" type="button" onclick="window.location.href = 'pollution.html'">La pollution du numérique : un côté obscur</button>
+            <button class="bouton" type="button" onclick="window.location.href = 'solutions.html'">Des solutions pour revenir du côté lumineux</button>
+            <button class="bouton" type="button" onclick="window.location.href = 'a-propos.html'">A propos</button>
+        </div>
     </nav>
 </header>
     <main class="BM">
@@ -37,7 +36,7 @@
          <h2>Black Mirror, un reflet de notre monde</h2>
          <article class="tweet"><q>Black Mirror qu’est que c’est et quel est le lien avec la pollution numérique ?</q></article>
         </div>
-        <img src="img/page-projet/black-mirror.png" alt="image de l'affiche de Black Mirror">
+        <a href="https://www.allocine.fr/series/ficheserie_gen_cserie=10855.html"><img src="img/page-projet/black-mirror.png" alt="image de l'affiche de Black Mirror"></a>
         <div class="texte">
         <p>Nous allons voir les problèmes présents dans Black Mirror qui sont aussi présent dans la réalité. </p>
         <p>Tout d'abord, qu'est que Black Mirror : Black Mirror est une série britannique de drame, science-fiction et thriller créée par Charlie Brooker. Le premier épisode est diffusé pour la première fois sur Channel 4 le 4 décembre 2011. </p>
@@ -75,7 +74,7 @@
                 <li class="carousel-item"><a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=147912.html" target="_blank"><img src="img/carousel/social-network.png" alt="affiche du film The Social Network"></a></li>
             </ul>
         </section>
-        <a href="pollution.html"><button class="bouton">Article suivant</button></a>
+        <button class="bouton" onclick="window.location.href = 'pollution.html'">Article suivant</button>
     </main>
     <footer>
         <div class="nom">
