@@ -346,3 +346,7 @@ main>img {
     margin-bottom: 100px;
     margin-top: -40px;
 }
+
+.carousel-item {
+    text-align: center;
+}
